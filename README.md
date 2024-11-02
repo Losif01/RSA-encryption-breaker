@@ -97,4 +97,4 @@ Attempts to decrypt the ciphertext using a low-exponent attack if the public exp
 This RSA implementation is simplified and not suitable for real-world cryptographic security. It is designed for learning and demonstration purposes only.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the GNU GPL v3.0 License.
