@@ -22,7 +22,7 @@ Simply clone this repository or copy the `rsa_module.py` file to your project di
 To use the `RSA` class in your project, import it from the module file:
 
 ```python
-from rsa_module import RSA  # replace rsa_module with your filename
+from RSA import RSA  # replace rsa_module with your filename
 ```
 
 ### Example Usage
@@ -31,7 +31,7 @@ Below is an example demonstrating how to use the RSA class for encryption, decry
 
 ```python
 # Import the RSA class
-from rsa_module import RSA
+from RSA import RSA
 
 # Initialize the RSA object with two small prime numbers
 rsa = RSA(61, 53)  # For larger security, use bigger primes
@@ -57,7 +57,7 @@ print("Low Exponent Attack:", rsa.low_exponent_attack(ciphertext))
 You can also run the file directly to see a demonstration of the RSA encryption, decryption, and attacks. Open a terminal and run:
 
 ```bash
-python rsa_module.py
+python RSA.py
 ```
 
 ### Functions
